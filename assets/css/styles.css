@@ -1,0 +1,164 @@
+/* Global Styling*/
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+  }
+  
+  p {
+    margin-bottom: 16px;
+  }
+  
+  body.Navigation {
+    position: fixed;
+    justify-content:end;
+    align-items:flex-end;
+  }  
+/*Page 1*/
+
+body.lynch {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+    letter-spacing: 0.02em;
+  }
+  
+  body.lynch h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+  }
+
+  /*Page 2*/
+
+  body.bachelard {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.9;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  body.bachelard h1 {
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+  }
+  
+  /*Page 3*/
+
+  body.venturi {
+    font-family: "Impact", "Arial Black", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2em;
+  }
+  
+  body.venturi h1 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+  }
+  
+  body.venturi p {
+    font-size: 18px;
+    line-height: 1.1;
+    font-weight: 700;
+  }
+  
+  /*Page 4*/
+  body.decerteau {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  body.decerteau h1 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+  }
+  /*Page 5*/
+  body.jacobs {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  body.jacobs h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+  }
+
+
+  /*====== LEVEL 4 =========*/
+  
+ /*1*/ 
+  body.lynch-layout .col {
+    float: left;
+    width: 45%;
+    margin: 2%;
+    padding: 20px;
+    border: 2px solid rgb(0, 216, 254);
+  }
+
+  /*2*/
+  body.bachelard-layout .door {
+    width: 60%;
+    margin: 100px auto;
+    padding: 40px;
+    border: 8px double rgb(255, 0, 140);
+  }
+
+ /*3*/ 
+  body.venturi-layout .box {
+    position: absolute;
+    width: 300px;
+    padding: 20px;
+    border: 3px solid rgb(0, 115, 255);
+  }
+  
+  body.venturi-layout .a { top: 40px; left: 40px; }
+  body.venturi-layout .b { top: 120px; left: 180px; }
+  body.venturi-layout .c { top: 200px; left: 80px; }
+  
+/*4*/
+  body.decertau-layout .path {
+    width: 200px;
+    height: 100vh;
+    padding: 20px;
+    border-left: 6px solid rgb(138, 0, 122);
+    margin-left: 60px;
+  }
+
+/*5*/
+  body.jacobs-layout .block {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(210, 101, 0);
+    vertical-align: top;
+  }
+  
+ 
+  
+  
